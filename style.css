@@ -1,0 +1,67 @@
+body{
+	font-family:monospace;
+	font-size: 10pt;
+	background-color:white;
+	margin-top:200px;
+	margin-left:60px;
+}
+
+a:link, a:visited, a:active {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+b {
+	color: white;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+
+#clock {
+	color: white;
+	font-size: 80px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+#timetabletext {
+	color: white;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+
+#date {
+	color: white;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+
+#timetable {
+	color: white;
+	text-decoration: bold;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	padding-left: 23px;
+	padding-top: 1px;
+}
+
+.left {
+	float: left;
+	clear: left;
+	width: 400px;
+}
+
+.right {
+	float: right;
+	width: 400px;
+}

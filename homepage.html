@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Startpage</title>
+		<link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="javascript.js"></script>
+	</head>
+		<body id="body" onload="startTime(); timetableLoad();" background="backgrounds/2.jpg">
+		<div class="left">
+			<div id="clock"></div>
+			
+			<img src="icons/calendar-icon.png" style="PADDING-RIGHT:5px;PADDING-TOP:2px;float:left;width:16px;height:16px;">
+			<div id="date"></div>
+			
+			<br>
+			
+			<img src="icons/camera_icon.png" style="PADDING-LEFT:2px;PADDING-RIGHT:5px;float:left;width:14px;height:14px;">
+			<img onclick="changeBackgroundImage('prev')" href="javascript:void(0);" src="icons/prev_icon.png" style="float:left;width:16px;height:16px;">
+			<img onclick="changeBackgroundImage('next')" href="javascript:void(0);" src="icons/next_icon.png" style="float:left;width:16px;height:16px;">
+			
+			<br><br>
+			
+			<b>Timetable:</b>
+			<img onclick="timetable('prev')" href="javascript:void(0);" src="icons/prev_icon.png" style="width:16px;height:16px;">
+			<b id="day">Day</b>
+			<img onclick="timetable('next')" href="javascript:void(0);" src="icons/next_icon.png" style="width:16px;height:16px;">
+			
+			<img src="icons/lecture_icon1.png" style="PADDING-RIGHT:5px;PADDING-TOP:2px;float:left;width:16px;height:16px;">
+			
+			<br><br>
+			
+			<div id="timetable"></div>
+			
+			<br>
+		
+			<!-- Search -->
+			<img src="icons/search_icon2.png" style="PADDING-LEFT:2px;PADDING-RIGHT:7px;float:left;width:14px;height:14px;">
+			<a href="https://www.google.co.uk/" target="_blank">Google</a>
+			<a href="https://duckduckgo.com/" target="_blank">DuckDuckGo</a>
+		
+			<br><br>
+			
+			<!-- Social -->
+			<img src="icons/social_icon1.png" style="PADDING-LEFT:2px;PADDING-RIGHT:7px;float:left;width:16px;height:16px;">
+			<a href="https://www.facebook.com/" target="_blank">Facebook</a>
+			<a href="https://twitter.com/" target="_blank">Twitter</a>
+			<a href="https://www.youtube.com/" target="_blank">Youtube</a>
+		
+			<br><br>
+			
+			<!-- Work -->
+			<img src="icons/uni_icon.png" style="PADDING-LEFT:2px;PADDING-RIGHT:7px;float:left;width:16px;height:16px;">
+			<a href="https://mail.google.com/mail/u/0/?shva=1#inbox" target="_blank">Gmail</a>
+			<a href="https://github.com/" target="_blank">Github</a>
+			
+			<br><br>
+			
+			<!-- News -->
+			<img src="icons/news_icon.png" style="PADDING-LEFT:2px;PADDING-RIGHT:7px;float:left;width:16px;height:16px;">
+			<a href="http://www.bbc.co.uk/news" target="_blank">BBC</a>
+			<a href="http://www.theguardian.com/uk" target="_blank">Guardian</a>
+			
+			<br><br>
+			
+			<!-- Shopping -->
+			<img src="icons/shop_icon.png" style="PADDING-LEFT:2px;PADDING-RIGHT:7px;float:left;width:16px;height:16px;">
+			<a href="http://www.amazon.co.uk/" target="_blank">Amazon</a>
+			<a href="http://www.ebay.co.uk/" target="_blank">Ebay</a>
+		</div>
+	</body>
+</html>
